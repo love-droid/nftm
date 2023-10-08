@@ -1,11 +1,15 @@
-# Basic NFT Marketplace end to end
+# Basic NFT Marketplace 
 
-This code is for the Tutorial [Build your own NFT Marketplace from Scratch](https://docs.alchemy.com/alchemy/) built by [alchemy.com](https://alchemy.com)
 
 To set up the repository and run the marketplace locally, run the below
 ```bash
-git clone https://github.com/OMGWINNING/NFT-Marketplace-Tutorial
-cd NFT-Marketplace-Tutorial
-npm install
-npm start
+clone the repository
+run npm start
+
 ```
+Create an env file in your root folder 
+//use your keys 
+REACT_APP_ALCHEMY_API_URL = "" 
+REACT_APP_PRIVATE_KEY = ""
+REACT_APP_PINATA_KEY = ""
+REACT_APP_PINATA_SECRET = ""
